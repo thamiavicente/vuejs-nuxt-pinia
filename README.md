@@ -59,15 +59,24 @@ O Vue conta com os seguintes ciclos de vida:
 | Cacheado? | sim | não |
 | Executa quando? | ao acessar e dependências mudarem | sempre que dependências mudam |
 
-### Slots, Props, Emits.
+### Slots, Props, Emits
 
 ### Diretivas e Diretivas customizadas
 
-### Componentes globais vs locais.
+### Componentes globais vs locais
 
 ### Vue Router
 
 ### Vuex ou Pinia
+
+### Transition
+https://vuejs.org/guide/built-ins/transition.html#transition
+
+### Plugins
+https://vuejs.org/guide/reusability/plugins.html
+
+### Fallthrough Attributes
+https://vuejs.org/guide/components/attrs
 
 ### Options API x Composition API
 | Aspecto | Options API | Composition API |
@@ -126,7 +135,9 @@ Promises, async/await.
 Classes e modules.
 Event Loop e Call Stack (como JS gerencia tarefas assíncronas).
 Manipulação de DOM.
-Debounce e throttle (para performance em scroll/input).
+Debounce e throttle
+    debounce é uma estratégia de adiar um processo por um período de tempo a partir de uma ação. Por exemplo, esperar o usuário parar de digitar (0.5s após o último input) para executar a validação do campo.
+    throttle é a estratégia de limitar a quantidade de vezes que um processo é executado em um determinado período de tempo. Por exemplo, trackear o movimento do mouse do usuário (a cada 0.5s pegar a posição x e y do mouse) sem travar a aplicação.
 Diferenciar null, undefined, NaN.
 
 TypeScript
